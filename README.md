@@ -1,4 +1,4 @@
-# LAM-EASY
+# Exponential LAM Monte Carlo Engine
 
 Reproducibility repository for the Monte Carlo simulations discussed in "Exponential Capacity in Multilayer Hetero-Associative Hopfield Networks".
 
