@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or the exponential LAM engine, please cite it using the metadata below."
+title: "Exponential LAM Engine"
+type: software
+authors:
+  - given-names: Andrea
+    family-names: Ladiana
+repository-code: "https://github.com/andrea-ladiana/exponential-lam-engine"
+license: MIT
+version: 0.1.0
+date-released: 2026-07-31
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Elena
+      family-names: Agliari
+    - given-names: Adriano
+      family-names: Barra
+    - given-names: Andrea
+      family-names: Ladiana
+    - given-names: Andrea
+      family-names: Lepre
+  title: "Exponential Capacity in Multilayer Hetero-Associative Neural Networks"
+  journal: "arXiv preprint arXiv:2607.29554"
+  year: 2026
+  month: 7
+  doi: "10.48550/arXiv.2607.29554"
+  url: "https://arxiv.org/abs/2607.29554"

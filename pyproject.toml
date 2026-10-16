@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exponential-lam-engine"
+version = "0.1.0"
+description = "Monte Carlo engine and analytical theory for Multilayer Hetero-Associative Exponential Hopfield Networks."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Andrea Ladiana" }
+]
+license = { text = "MIT" }
+keywords = [
+  "hopfield-networks",
+  "hetero-associative-memory",
+  "exponential-capacity",
+  "statistical-mechanics",
+  "monte-carlo",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+torch = [
+  "torch>=2.0",
+]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/andrea-ladiana/exponential-lam-engine"
+Repository = "https://github.com/andrea-ladiana/exponential-lam-engine"
+arXiv = "https://arxiv.org/abs/2607.29554"
+DOI = "https://doi.org/10.48550/arXiv.2607.29554"
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+addopts = "-q"
